@@ -1,15 +1,17 @@
-# Ejemplo # - Nombre del ejemplo
-
-## Objetivo
-
-* Agregar los objetivos del ejemplo (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Ejemplo 1 - La importancia de realizar pruebas
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el ejemplo.
->Si no es necesario, puedes borrar esta nota.
+### La importancia de realizar pruebas
 
-Aquí se debe agregar el desarrollo del ejemplo
+Cuando creamos software debemos asegurar un cierto nivel de calidad, es decir, verificar que el código haga lo que
+queremos y validar, con el usuario, que se comporte de la forma esperada. De no hacerlo podemos acabar con software
+defectuoso, cuyo resultado pude ser desde un cliente insatisfecho, pasando por perdidas monetarias y llegando incluso a
+la perdida de vidas humanas.
+[Fallas en el software del Boeing 737](https://www.xataka.com/vehiculos/tercer-error-software-aparece-boeing-737-max-a-pesar-todo-faa-parece-aprobar-cambios-su-diseno)
 
+Actualmente la informática no tiene herramientas suficientes para demostrar que un software no falla o que se encuentra
+libre de errores. Por eso las pruebas no garantizan que un programa este libre de fallos, sino que minimizan las
+probabilidades de errores en un ambiente dado. Las pruebas combinadas con una metodología ágil como scrum, y
+herramientas de integración continua, nos permiten mejorar de forma continua el código y el producto, reducir la
+cantidad de errores introducidos y aumentar la velocidad de desarrollo.

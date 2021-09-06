@@ -1,41 +1,3 @@
-# Reto 2 - Implementar conversión de snake_case a PascalCase
-
-## Desarrollo
-
-![style-cases.png](assets/style-cases.png)
-
-Queremos realizar un programa que sea capaz de convertir una cadena en formato snake_case(esto_es_un_ejemplo) a formato
-PascalCase (EstoEsUnEjemplo). Para ello contaremos con la siguiente función:
-
-`castSnakeCaseToPascalCase(snakeCaseString: string) → string`
-
-Adicionalmente debemos añadir pruebas a nuestro código.
-
-
-<details>
-  <summary>Solución</summary>
-
-`StringOperations.js`
-
-```javascript
-
-const castPascalCaseToSnakeCase = (pascalCaseString) => {
-    return pascalCaseString.split(/(?=[A-Z])/).join('_').toLowerCase();
-}
-
-const castSnakeCaseToPascalCase = (snakeCaseString) => {
-    const words = snakeCaseString.split('_');
-    return words.map(word => word[0].toUpperCase() + word.substr(1)).join('');
-}
-
-module.exports = {castPascalCaseToSnakeCase, castSnakeCaseToPascalCase};
-
-```
-
-`TestStringOperations.js`
-
-```javascript
-
 const {castPascalCaseToSnakeCase, castSnakeCaseToPascalCase} = require("./StringOperations");
 
 
@@ -54,9 +16,3 @@ const testCastSnakeCaseToPascalCase = () => {
 
 testCastPascalCaseToSnakeCase();
 testCastSnakeCaseToPascalCase();
-
-
-```
-
-</details>
-

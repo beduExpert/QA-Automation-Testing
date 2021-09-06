@@ -1,26 +1,33 @@
-# Nombre de módulo
+# QA Automation Testing
 
 ## :wave: Bienvenid@s
 
-Dar la bienvenida al alumno describiendo el contexto general del módulo. (Borrar está linea una vez se hay leido. **Está información se basa en el alance que se encuentra en la ficaha técnica de cada módulo.**
+Durante este modulo conoceremos distintas técnicas y herramientas que nos permitiran probar nuestro software de forma
+eficaz y eficiente. A lo largo del curso utilizaremos distintas herramientas teniendo como base el lenguaje Javascript.
 
 ## :dart: Objetivo
 
-Describir el objetivo general del módulo **Obligatorio**. (Borrar está linea una vez se hay leido) 
+En este curso aprenderás obtendras una visión general de la disciplina de pruebas, entendiendo la necesidad de las
+pruebas del software, los objetivos de las pruebas, así como su cantidad idonea y los conceptos fundamentaless de la
+disciplina.
+
+Te familiarizas con distintas herramientas como Jest, eslint, Cypress, TestCafe,entre otras.
+
+Comprenderas las diferencias entre los distintos tipos de pruebas como: unitarias, de integración , e2e, etc.
+
+Y por último realizaremos una introducción a una meotodología de desarrollo guiado por comportamientos como lo es BDD (
+Behaviour Driven Development)
 
 ## :gear: Requerimientos
 
-Describir los requerimientos en caso de que el módulo lo requiera **Obligatorio**. (Borrar está linea una vez se hay leido) 
-
-## 💻 Proyecto
-
-Describir el proyecto en caso de que el módulo lo requiera **Obligatorio** .  (Borrar está linea una vez se hay leido)
+Consultar la sección de instalación
+del [Prework 01](https://docs.google.com/document/d/1AM2304xZvCx8KrbuakibdkRaaDkVpNme0fKM116jjZs/edit?usp=sharing)
 
 ## :bookmark_tabs: Sesiones
 
-##### Describir el temario del módulo **Obligatorio** . (Borrar está linea una vez se hay leido) 
+##### Describir el temario del módulo **Obligatorio** . (Borrar está linea una vez se hay leido)
 
-- [`Sesión 01:` Nombre de la sesión 01](./Sesion-01)
+- [`Sesión 01:` QA Fundamentals](./Sesion-01)
 - [`Sesión 02:` Nombre de la sesión 02](./Sesion-02)
 - [`Sesión 03:` Nombre de la sesión 03](./Sesion-03)
 - [`Sesión 04:` Nombre de la sesión 04](./Sesion-04)

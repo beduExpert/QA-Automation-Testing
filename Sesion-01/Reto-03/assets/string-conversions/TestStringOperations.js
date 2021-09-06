@@ -1,19 +1,3 @@
-# Reto 3 - Implementar función de prueba
-
-## Desarrollo
-
-Desarrollar una función que permita ejecutar casos de prueba y cumpla con los siguientes requerimientos:
-
-- En caso de que una prueba fallé imprimir: salida esperada y salida actual
-- Puede ejecutar casos de prueba de multiples funciones
-
-<details>
-  <summary>Solución</summary>
-
-`TestStringOperations.js`
-
-```javascript
-
 const {castPascalCaseToSnakeCase, castSnakeCaseToPascalCase} = require("./StringOperations");
 
 
@@ -43,9 +27,3 @@ const executeTest = (input, expectedOutput, functionToExecute) => {
 
 testCastPascalCaseToSnakeCase();
 testCastSnakeCaseToPascalCase();
-
-
-
-```
-
-</details>

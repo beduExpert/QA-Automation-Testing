@@ -1,15 +1,25 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 1 - Implementar conversión de PascalCase a snake_case
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+![style-cases.png](assets/style-cases.png)
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+Queremos realizar un programa que sea capaz de convertir una cadena en formato PascalCase (EstoEsUnEjemplo) a formato
+snake_case(esto_es_un_ejemplo). Para ello contaremos con la siguiente función:
+
+`castPascalCaseToSnakeCase(pascalCaseString: string) → string`
+
+
+<details>
+  <summary>Solución</summary>
+
+`StringOperations.js`
+```javascript
+
+const castPascalCaseToSnakeCase = (pascalCaseString) => {
+    return pascalCaseString.split(/(?=[A-Z])/).join('_').toLowerCase();
+}
+
+```
+</details>
 
