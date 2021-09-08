@@ -17,7 +17,7 @@ Requerimientos:
 <details>
   <summary>Solución</summary>
 
-## Caso de uso (Sign up)
+## Historia de usuario Sign up
 
 **AS** un usuario
 **I WANT** poder registrarme utilizando mi correo, cuenta de facebook o google
