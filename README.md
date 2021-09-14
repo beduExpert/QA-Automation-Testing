@@ -7,11 +7,11 @@ eficaz y eficiente. A lo largo del curso utilizaremos distintas herramientas ten
 
 ## :dart: Objetivo
 
-En este curso aprenderás obtendrás una visión general de la disciplina de pruebas, entendiendo la necesidad de las
+En este curso obtendrás una visión general de la disciplina de pruebas, entendiendo la necesidad de las
 pruebas del software, los objetivos de las pruebas, así como su cantidad idónea y los conceptos fundamentales de la
 disciplina.
 
-Te familiarizas con distintas herramientas como Jest, eslint, Cypress, TestCafe, entre otras.
+Te familiarizarás con distintas herramientas como Jest, eslint, Cypress, TestCafe, entre otras.
 
 Comprenderás las diferencias entre los distintos tipos de pruebas como: unitarias, de integración, e2e, etc.
 
@@ -27,7 +27,7 @@ del [Prework 01](https://docs.google.com/document/d/1AM2304xZvCx8KrbuakibdkRaaDk
 
 - [`Sesión 01:` QA Fundamentals](./Sesion-01)
 - [`Sesión 02:` Testing processes in agile](./Sesion-02)
-- [`Sesión 03:` Nombre de la sesión 03](./Sesion-03)
+- [`Sesión 03:` Plan, Design and Execute](./Sesion-03)
 - [`Sesión 04:` Nombre de la sesión 04](./Sesion-04)
 - [`Sesión 05:` Nombre de la sesión 05](./Sesion-05)
 - [`Sesión 06:` Nombre de la sesión 06](./Sesion-06)
