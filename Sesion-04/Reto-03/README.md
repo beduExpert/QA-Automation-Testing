@@ -1,15 +1,93 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 3 - Endpoint para el login
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+A continuación crearemos un endpoint para el login, integrando nuestra logica principal.
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+- Añadir un nuevo endpoint para la ruta `/login`
+- El endpoint debe aceptar peticiones tipo POST
+- El endpoint recibirá dos parámetros: `email` y `password`
+- Llamar a nuestra función `login` desde el endpoint
 
+<details>
+  <summary>Solución</summary>
+
+`app.js`
+
+```javascript
+
+const {login} = require("./Login");
+const express = require('express')
+const bodyParser = require('body-parser');
+const port = 3000
+const app = express()
+app.use(bodyParser.urlencoded({extended: true}))
+app.use(bodyParser.json())
+app.use(bodyParser.raw())
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
+app.post('/login', (req, res) => {
+    const userCredentials = {email: req.body.email, password: req.body.password}
+    const response = login(userCredentials)
+    res.send(response)
+})
+
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+})
+
+```
+
+`TestApp.js`
+
+```javascript
+
+const axios = require('axios');
+const {login} = require("./Login");
+
+const executeTest = async (input, expectedOutput, functionToExecute) => {
+    const actualOutput = await functionToExecute(input)
+
+    if (actualOutput !== expectedOutput) {
+        console.log(`Test fail. Expected output: ${expectedOutput}  actual output: ${actualOutput}`)
+    } else {
+        console.log("Test pass")
+    }
+}
+
+const makePostApiCall = async (userCredentials) => {
+    const response = await axios.post('http://localhost:3000/login',userCredentials)
+    return response.data
+}
+
+const testReturnsSuccessMessageWhenUserLogsInWithValidEmailAndPassword = () => {
+    const userCredentials = {email: "myemail@mail.com", password: "securePassword"}
+    const successMessage = "Bienvenido al sistema"
+    executeTest(userCredentials, successMessage, makePostApiCall)
+}
+
+const testReturnsInvalidPasswordMessageWhenUserLogsInWithValidEmailAndPassword = () => {
+    const userCredentials = {email: "myemail@mail.com", password: "invalidPassword"}
+    const successMessage = "Contraseña incorrecta"
+    executeTest(userCredentials, successMessage, makePostApiCall)
+}
+
+const testReturnsUserNotFoundMessageWhenUserLogsInWithValidEmailAndPassword = () => {
+    const userCredentials = {email: "unregistered_user@mail.com", password: "securePassword"}
+    const successMessage = "Usuario no registrado"
+    executeTest(userCredentials, successMessage, makePostApiCall)
+}
+
+
+testReturnsSuccessMessageWhenUserLogsInWithValidEmailAndPassword()
+testReturnsInvalidPasswordMessageWhenUserLogsInWithValidEmailAndPassword()
+testReturnsUserNotFoundMessageWhenUserLogsInWithValidEmailAndPassword()
+
+
+
+```
+
+</details>
