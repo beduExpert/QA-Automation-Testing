@@ -40,22 +40,22 @@ ________________________________________________________________________________
 
 Asegúrate que tu postwork contenga todo lo siguiente, ya que esto se evaluará al término del módulo.
 
-[ ] El archivo StringOperations cuenta con una función para convertir textos de formato PascalCase a camelCase
+- [ ] El archivo StringOperations cuenta con una función para convertir textos de formato PascalCase a camelCase
 
 
 
 
-[ ] El archivo StringOperations cuenta con una función para convertir textos de formato snake_case a camelCase
+- [ ] El archivo StringOperations cuenta con una función para convertir textos de formato snake_case a camelCase
 
 
 
 
-[ ] En el archivo TestStringOperations cuenta con las pruebas para verificar el funcionamiento de la conversión de PascalCase a camelCase
+- [ ] En el archivo TestStringOperations cuenta con las pruebas para verificar el funcionamiento de la conversión de PascalCase a camelCase
 
 
 
 
-[ ] En el archivo TestStringOperations cuenta con las pruebas para verificar el funcionamiento de la conversión de snake_case a camelCase
+- [ ] En el archivo TestStringOperations cuenta con las pruebas para verificar el funcionamiento de la conversión de snake_case a camelCase
 
 
 
