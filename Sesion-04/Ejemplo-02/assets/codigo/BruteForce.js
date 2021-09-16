@@ -1,32 +1,3 @@
-# Reto 2 - Fuerza bruta
-
-## Desarrollo
-
-Como revisamos en el prework Un ataque de fuerza bruta es un intento de averiguar una contraseña o un nombre de usuario,
-o de encontrar una página web oculta o la clave utilizada para cifrar un mensaje, mediante un enfoque de prueba y error,
-con la esperanza de acertar. Este es un antiguo método de ataque, pero sigue siendo efectivo y popular entre hackers.
-
-A continuación desarrollaremos un script de fuerza bruta para nuestro login, donde partiremos de conocer las siguientes
-dos características:
-
-- El email del usuario es: myemail@mail.com
-- La contraseña del usuario es de 14 caracteres y solo contiene letras mayúsculas y minusculas
-- Los últimos 8 caracteres de la contraseña son: Password
-
->**💡 Nota para experto(a)**
->
-> Cuando los estudiantes terminen el reto, desarrollar la conversación alrededor de estos temas:
-> ¿Existen similitudes entre las pruebas y nuestro script de fuerza bruta? ¿Cuáles?
-> ¿Cuál fue la complejidad de nuestro algoritmo?
-> ¿De qué forma podríamos acelerar la ejecución?
-
-<details>
-  <summary>Solución</summary>
-
-`BruteForce.js`
-
-```javascript
-
 const {login} = require("./Login");
 
 const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -56,8 +27,3 @@ const findValidPassword = () => {
 }
 
 findValidPassword()
-
-
-```
-
-</details>
