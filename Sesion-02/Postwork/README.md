@@ -51,17 +51,17 @@ ________________________________________________________________________________
 
 Asegúrate que tu postwork contenga todo lo siguiente, ya que esto se evaluará al término del módulo.
 
--[ ] La historia de usuario está en formato AS, WANT, SO
+- [ ] La historia de usuario está en formato AS, WANT, SO
 
 
 
 
--[ ] Se cuenta con la descripción de cada uno de los requerimientos
+- [ ] Se cuenta con la descripción de cada uno de los requerimientos
 
 
 
 
--[ ] Las descripciones de los requerimientos están en formato GIVEN, WHEN, THEN
+- [ ] Las descripciones de los requerimientos están en formato GIVEN, WHEN, THEN
 
 
 
