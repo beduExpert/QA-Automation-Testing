@@ -22,7 +22,7 @@ del [Prework 01](https://docs.google.com/document/d/1AM2304xZvCx8KrbuakibdkRaaDk
     - [Reto  02: Implementar conversión de snake_case a PascalCase](./Reto-02)
 - [Ejemplo 04: Excepciones, fallas y errores](./Ejemplo-04)
     - [Reto 03: Implementar función de prueba](./Reto-03)
-- [Postwork](https://docs.google.com/document/d/1ZwlNDhdgf7YFQYSA6xpMpyRFv_yBPLQnY2CCmy11srY/edit?usp=sharing)
+- [Postwork](./Postwork)
 
 
 
