@@ -13,7 +13,7 @@
     - [Reto  02: Fuerza bruta](./Reto-02)
 - [Ejemplo 02: Pruebas de integración](./Ejemplo-02)
     - [Reto 03: Endpoint para el login](./Reto-03)
-- [Postwork: Nombre del postwork](./Postwork)
+- [Postwork](./Postwork)
 
 
 
