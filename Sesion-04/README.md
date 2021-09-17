@@ -8,8 +8,6 @@
 
 ## 📂 Organización de la clase
 
-Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea una vez se hay leido)
-
 - [Ejemplo 01:  Pruebas unitarias](./Ejemplo-01)
     - [Reto 01: Pruebas unitarias para datos invalidos](./Reto-01)
     - [Reto  02: Fuerza bruta](./Reto-02)
