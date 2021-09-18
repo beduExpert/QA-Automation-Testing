@@ -1,22 +1,15 @@
 
-# Sesión #: Nombre de la sesión
-
+# Sesión 5: Automation testing tools
 ## :dart: Objetivos
 
 Agregar los objetivos de las sesión (Mínimo poner tres objetivos y Borrar está linea una vez se hay leido )
 
-- Objetivo 1
-- Objetivo 2
-- Objetivo 3
+- Identificar los principios de las pruebas automatizadas
+- Crear pruebas unitarias y de integración con jest
+- Aplicar pruebas funcionales sobre la interfaz de usuario con Vue Test Utils
+- Crear pruebas e2e con test cafe
+- Generar pruebas basadas en principios de BDD con cucumber
 
-## ⚙ Requisitos
-
-+ Agregar los requisitos de la sesión 
-+ Agregar el link de descarga en caso de ser necesario para la sesión (Borrar estás lineas una vez se hayan leido)
-
-## 🎩 Buenas prácticas
-
-Agregar buenas prácticas en caso de que la sesión lo requierea, de no ser así borrar está intrucción una vez se haya leido.
 
 ## 📂 Organización de la clase
 
