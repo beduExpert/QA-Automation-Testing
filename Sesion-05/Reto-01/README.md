@@ -1,15 +1,63 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 1 - Fibonacci para valores altos
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+Como vimos en el ejemplo anterior la ejecución de nuestro código toma un tiempo considerable para casos con valores"
+altos". Nuestro reto consistirá en transformar nuestra función fibonacci para lograr ejecuciones de menos de un segundo
+para los siguientes casos de prueba:
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+```javascript
 
+const {fibonacci} = require("./Fibonacci");
+
+
+describe("TestFibonacci", () => {
+
+    it("returns fibonacci value", () => {
+        expect(fibonacci(0)).toEqual(0);
+        expect(fibonacci(1)).toEqual(1);
+        expect(fibonacci(2)).toEqual(1);
+        expect(fibonacci(6)).toEqual(8);
+        expect(fibonacci(45)).toEqual(1134903170);
+        expect(fibonacci(50)).toEqual(12586269025);
+    });
+
+
+});
+
+```
+
+<details>
+  <summary>Solución</summary>
+
+`Fibonacci.js`
+
+```javascript
+
+const memo = {};
+
+const fibonacci = (n) => {
+
+    if (memo[n] !== undefined) {
+        return memo[n];
+    }
+
+    if (n === 0) {
+        return memo[n] = 0;
+    }
+
+    if (n === 1) {
+        return memo[n] = 1;
+    }
+
+    return memo[n] = fibonacci(n - 1) + fibonacci(n - 2);
+
+}
+
+module.exports = {fibonacci};
+
+
+
+```
+
+</details>
