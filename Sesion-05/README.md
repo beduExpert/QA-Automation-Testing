@@ -5,8 +5,7 @@
 - Identificar los principios de las pruebas automatizadas
 - Crear pruebas unitarias y de integración con jest
 - Aplicar pruebas funcionales sobre la interfaz de usuario con Vue Test Utils
-- Crear pruebas e2e con test cafe
-- Generar pruebas basadas en principios de BDD con cucumber
+- Crear pruebas e2e con TestCafe
 
 
 ## 📂 Organización de la clase
@@ -17,7 +16,8 @@ Agregar los ejemplos y retos que va a requerir la sesión (Borrar está linea un
     - [Reto 01: Fibonacci para valores altos](./Reto-01)
 - [Ejemplo 02: Vue.js testing](./Ejemplo-02)
   - [Reto  02: Fibonacci UI](./Reto-02)
-  - [Reto 03: Nombre del reto 03](./Reto-03)
+- [Ejemplo 03: TestCafe ](./Reto-03)
+  - [Reto 03: Prueba TestCafe](./Reto-03)
 - [Postwork](./Postwork)
 
 

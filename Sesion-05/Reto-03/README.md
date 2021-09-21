@@ -1,15 +1,41 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 3 - Prueba TestCafe
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+A continuación utilizáremos la siguiente página: https://testcafe-demo-page.glitch.me/
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+Nuestro objetivo es completar las siguientes acciones utilizando TestCafe
+
+- Desliza el slider del tamaño de la pizza
+- Selecciona los ingredientes
+- Llena el formulario con la dirección
+
+<details>
+  <summary>Solución</summary>
+
+```javascript
+
+fixture`PizzaExample`
+    .page`https://testcafe-demo-page.glitch.me/`;
+
+test('Submit a form', async t => {
+    await t
+
+        // drag the pizza size slider
+        .drag('.noUi-handle', 100, 0)
+
+        // select the toppings
+        .click('.next-step')
+        .click('label[for="pepperoni"]')
+        .click('#step2 .next-step')
+
+        // fill the address form
+        .click('.confirm-address')
+        .typeText('#phone-input', '+1-541-754-3001')
+        .click('#step3 .next-step')
+});
+
+```
+
+</details>
 
