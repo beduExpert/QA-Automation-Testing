@@ -30,6 +30,6 @@ del [Prework 01](https://docs.google.com/document/d/1AM2304xZvCx8KrbuakibdkRaaDk
 - [`Sesión 03:` Plan, Design and Execute](./Sesion-03)
 - [`Sesión 04:` Automated test types](./Sesion-04)
 - [`Sesión 05:` Automation testing tools](./Sesion-05)
-- [`Sesión 06:` Nombre de la sesión 06](./Sesion-06)
+- [`Sesión 06:` Unit Testing](./Sesion-06)
 - [`Sesión 07:` Nombre de la sesión 07](./Sesion-07)
 - [`Sesión 08:` Nombre de la sesión 08](./Sesion-08)
