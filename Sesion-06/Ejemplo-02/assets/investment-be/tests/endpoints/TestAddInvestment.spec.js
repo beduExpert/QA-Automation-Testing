@@ -1,16 +1,3 @@
-# Reto 3 - Validar valores de investment
-
-## Desarrollo
-
-Completa las pruebas para validar los valores de la inversión creada
-
-<details>
-  <summary>Solución</summary>
-
-`TestAddInvesment.spec.js`
-
-```javascript
-
 const request = require("supertest");
 const app = require("../../app");
 
@@ -36,11 +23,7 @@ describe('add-investment endpoint', () => {
         expect(response.body.interest).toBe(interest);
         expect(response.body.startingAmount).toBe(startingAmount);
         expect(response.body.endDate).toBe(expectedEndDate);
+        expect(response.body.finalAmount).toBe(expectedFinalAmount);
     });
 })
 
-
-
-```
-
-</details>
