@@ -1,15 +1,16 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 1 - Despliegue en Heroku
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+![img.png](img.png)
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+Ahora es tu turno para desplegar tu aplicación en Heroku. A continuación se listan los pasos básicos a seguir, si tienes
+dudas puedes consultar el ejemplo anterior o apoyarte de tu experto.
+
+- Registrate en Heroku
+- Modifica tu archivo `package.json`
+- Crea una nueva aplicación en Heroku
+- Conecta Heroku con tu cuenta de GitHub
+- Activa los despliegues automaticos.
+- Realiza el primer despliegue de forma manual.
 

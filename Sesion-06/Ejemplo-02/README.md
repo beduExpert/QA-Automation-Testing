@@ -2,7 +2,7 @@
 
 ## Desarrollo
 
-Ahora que tenemos la logíca para añadir inversiones, necesitamos exponerla para que sea accesible des una interfaz
+Ahora que tenemos la logíca para añadir inversiones, necesitamos exponerla para que sea accesible desde una interfaz
 gráfica. Para ello crearemos una API haciendo uso de express.
 
 Instalamos express y sql lite con el comando:

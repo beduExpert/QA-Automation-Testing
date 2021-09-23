@@ -1,15 +1,51 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 1 - Creación de la base de datos
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+A continuación añade los campos: _name, description, interest, starting_amount, final_amount, start_date y end_date_ a
+la tabla investments.
 
-Aquí se debe agregar el desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+Para revisar los tipos de datos existentes en SQLLite puede revisar el
+siguiente [recurso](https://www.sqlite.org/datatype3.html)
 
+
+<details>
+  <summary>Solución</summary>
+
+`database.js`
+
+```javascript
+
+const sqlite3 = require('sqlite3').verbose()
+
+const DB_SOURCE = "db.sqlite"
+
+let db = new sqlite3.Database(DB_SOURCE, (err) => {
+    if (err) {
+        throw err
+    } else {
+        db.run(`CREATE TABLE investment (
+            id  text KEY,
+            name text, 
+            description text, 
+            interest real, 
+            starting_amount real, 
+            final_amount real, 
+            start_date number, 
+            end_date text, 
+            )`,
+            (err) => {
+                if (err) {
+                    // Table already created
+                }
+            });
+    }
+});
+
+
+module.exports = db
+
+
+```
+
+</details>

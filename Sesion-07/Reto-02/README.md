@@ -1,15 +1,35 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 2 - Inyección de dependencias
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+A continuación nos desacoplaremos del framework(express) y para ello crearemos las siguientes clases/archivos.
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+![img.png](img.png)
 
+- Crea el archivo add_investment e impleméntalo como una función o una clase
+- Crea las pruebas correspondientes inyectando una implementación del repositorio o una conexión a la BD.
+
+
+<details>
+  <summary>Solución</summary>
+
+`add_investment.js`
+```javascript
+
+import Investment from "./investment-be/entities/Investment";
+
+const AddInvestmentRequest = function (name, description, interest, startingAmount, durationDays, startDate) {
+    this.name = name;
+    this.description = description;
+    this.interest = interest;
+    this.startingAmount = startingAmount;
+    this.durationDays = durationDays;
+    this.startDate = startDate;
+}
+
+const add_investment = (addInvestmentRequest, repository) => {
+    return Investment.addInvestment(addInvestmentRequest.name, addInvestmentRequest.description, repository)
+}
+
+```
+</details>

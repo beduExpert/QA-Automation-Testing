@@ -3,7 +3,7 @@
 ## Desarrollo
 
 Durante este ejemplo nos familiarizaremos con Jest y para ello realizaremos un programa que nos permita calcular el
-valor de la funcion e fibonacci en un valor dado.
+valor de la funcion de fibonacci en un valor dado.
 
 ### Fibonacci
 
@@ -138,7 +138,7 @@ describe("TestFibonacci", () => {
 
 ¿Cuál crees que es la razón?
 
-Desarrollar casos d euso aqui, reto que falle con vlaores altos y cambien a iteraitivo con memorizacion
+Desarrollar casos de uso aqui, reto que falle con valores altos y cambien a iterativo con memorizacion
 
 Crear todo list en vue y probar
 
