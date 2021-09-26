@@ -1,15 +1,15 @@
-# Reto # - Nombre del reto
-
-## Objetivo
-
-* Agregar los objetivos del reto (Mínimo agregar 2 objetivos y Borrar está linea una vez se hay leido)
+# Reto 2 - GitHub Actions
 
 ## Desarrollo
 
->**💡 Nota para experto(a)**
->
-> Este es un ejemplo por si el experto necesita tener en cuenta un punto clave durante el reto.
->Si no es necesario, puedes borrar esta nota.
+![img.png](img.png)
 
-Aquí se debe agregar eal desarrollo del reto, **NO** olvides poner el resultado del ejercicio propuesto para el feedback de los alumnos
+Ahora es tu turno para implementar un workflow en GitHub Actions. A continuación se listan los pasos básicos a seguir,
+si tienes dudas puedes consultar el ejemplo anterior o apoyarte de tu experto.
+
+- Dirigite a tu repositorio en GitHub
+- Modifica tu archivo `package.json`
+- Crea un nuevo workflow
+- Ejecuta tu workflow
+- Verifica el resultado
 
