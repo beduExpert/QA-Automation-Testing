@@ -2,10 +2,11 @@
 
 ## :dart: Objetivos
 
-- Identificar las características del principio de Inversión de control
-- Aplicar el patrón de Inyección de dependencias
-- Identificar los principios de las pruebas integración
-- Crear pruebas de integración
+- Identificar las características del desarrollo y la integración continua. 
+- Aplicar principios de DevOps para la construcción de pipelines
+- Identificar las características de Jenkins, Travis y Github Actions
+- Crear un pipeline con GitHub Actions
+
 
 ## 📂 Organización de la clase
 
