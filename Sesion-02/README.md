@@ -2,7 +2,7 @@
 
 ## :dart: Objetivos
 
-- Identificar las tareas y responsabilidades de un tester en un proceso de desarrollo ágil.
+- Identificar las tareas y responsabilidades de un tester en un proceso de desarrollo ágil
 - Reconocer las diferentes metodologías de pruebas ágiles
 - Aplicar las estrategias de pruebas para un tester ágil
 
