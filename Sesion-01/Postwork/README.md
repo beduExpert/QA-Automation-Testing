@@ -6,7 +6,9 @@ Recuerda que también puedes consultar tu postwork en la app Bedu
 ## 🎯 OBJETIVOS
 
 -Practicar la creación de pruebas unitarias.
+
 -Desarrollar funcionalidad adicional. 
+
 -Desarrollar pruebas unitarias.
 
 ## 🚀 DESARROLLO
