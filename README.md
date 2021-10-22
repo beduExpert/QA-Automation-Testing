@@ -20,7 +20,7 @@ Behaviour Driven Development)
 
 ## :gear: Requerimientos
 
-Consultar la sección de instalación
+Consulta la sección de instalación
 del Prework en la App Bedu
 
 ## :bookmark_tabs: Sesiones
