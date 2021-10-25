@@ -15,7 +15,7 @@
     - [Reto 01: Fibonacci para valores altos](./Reto-01)
 - [Ejemplo 02: Vue.js testing](./Ejemplo-02)
   - [Reto  02: Fibonacci UI](./Reto-02)
-- [Ejemplo 03: TestCafe ](./Reto-03)
+- [Ejemplo 03: TestCafe ](./Ejemplo-03)
   - [Reto 03: Prueba TestCafe](./Reto-03)
 - [Postwork](./Postwork)
 
