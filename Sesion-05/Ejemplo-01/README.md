@@ -138,10 +138,4 @@ describe("TestFibonacci", () => {
 
 ¿Cuál crees que es la razón?
 
-Desarrollar casos de uso aqui, reto que falle con valores altos y cambien a iterativo con memorizacion
-
-Crear todo list en vue y probar
-
-Si queda espacio cucumber
-
 
