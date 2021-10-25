@@ -11,7 +11,7 @@ En este curso obtendrás una visión general de la disciplina de pruebas, entend
 pruebas del software, los objetivos de las pruebas, así como su cantidad idónea y los conceptos fundamentales de la
 disciplina.
 
-Te familiarizarás con distintas herramientas como Jest, eslint, Cypress, TestCafe, entre otras.
+Te familiarizarás con distintas herramientas como Jest, eslint, TestCafe, entre otras.
 
 Comprenderás las diferencias entre los distintos tipos de pruebas como: unitarias, de integración, e2e, etc.
 
