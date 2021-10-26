@@ -26,7 +26,7 @@ En este postwork desplegarás el FE de la aplicación de inversiones a Heroku y 
 6. Realiza las configuraciones pertinentes para que tu app de FE se conecte con tu app de BE
 
 
-## Indicaciones generales
+## Reflexiones finales 
 
 ¿Terminaste la actividad? Responde las siguientes preguntas:
 
