@@ -1,5 +1,7 @@
 # Postwork
 
+Recuerda que también puedes consultar tu postwork en la app Bedu
+
 ## 🎯 OBJETIVOS
 
 - Desplegar aplicación de Vue.js a Heroku
