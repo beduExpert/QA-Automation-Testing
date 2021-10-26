@@ -22,7 +22,7 @@ son los años 2000s, Reed Hastings, fundador de Netflix, quiere hacer un cambio 
 
 - El plan de pruebas debe contar con los mismos elementos que el plan de pruebas desarrollado durante el work
 
-### Indicaciones generales
+### Reflexiones finales
 
 ¿Terminaste la actividad? responde las siguientes preguntas:
 
