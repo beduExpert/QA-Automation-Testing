@@ -2,8 +2,9 @@
 
 ## 🎯 OBJETIVOS
 
-- Familiarizarse con la herramienta TestCafe
-- Implementar pruebas e2e
+- Utilizar la herramienta TestCafe.
+- Implementar pruebas e2e.
+
 
 ## 🚀 DESARROLLO
 
