@@ -1,4 +1,6 @@
 # Postwork
+Recuerda que también puedes consultar tu postwork en la app Bedu
+
 
 ## 🎯 OBJETIVOS
 
