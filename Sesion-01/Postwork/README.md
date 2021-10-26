@@ -22,7 +22,7 @@ Sigue estas instrucciones:
 1. Realiza las pruebas que consideres necesarias
 1. Repite los pasos anteriores ahora para la función castSnakeCaseToCamelCase
 
-### Indicaciones generales
+### Reflexiones finales 
 
 Una vez que hayas terminado  la actividad responde las siguientes preguntas:
 
