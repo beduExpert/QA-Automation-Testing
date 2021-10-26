@@ -4,9 +4,10 @@ Recuerda que también puedes consultar tu postwork en la app Bedu
 
 ## 🎯 OBJETIVOS
 
-- Desplegar aplicación de Vue.js a Heroku
-- Configurar GitHub Actions para correr pruebas y eslint
-- Familiarizarse con las herramientas de CI/CD
+- Desplegar aplicación de Vue.js a Heroku.
+- Configurar GitHub Actions para correr pruebas y eslint.
+- Reconocer las herramientas de CI/CD.
+
 
 ## 🚀 DESARROLLO
 
