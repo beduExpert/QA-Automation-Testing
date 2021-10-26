@@ -4,9 +4,10 @@ Recuerda que también puedes consultar tu postwork en la app Bedu
 
 ## 🎯 OBJETIVOS
 
-Familiarizarnos con la creación de historias de usuario
-Crear criterios de aceptación en formato Given, Then, When
-Reconocer la utilidad de crear historias de usuario
+- Redactar historias de usuario del proyecto.
+- Crear criterios de aceptación en formato Given, Then, When
+- Reconocer la utilidad de crear historias de usuario
+
 
 ## 🚀 DESARROLLO
 
