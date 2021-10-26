@@ -4,8 +4,9 @@ Recuerda que también puedes consultar tu postwork en la app Bedu
 
 ## 🎯 OBJETIVOS
 
-- Familiarizarse con las herramientas integration testing
-- Implementar pruebas de integración
+- Practicar con las herramientas de integration testing.
+- Implementar pruebas de integración.
+
 
 ## 🚀 DESARROLLO
 
