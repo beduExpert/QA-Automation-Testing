@@ -25,7 +25,7 @@ durante el work
 - Crea un archivo llamado TestFibonacciE2E.js Agrega los casos de pruebas que consideres necesarios
 - Ejecuta las pruebas en al menos dos navegadores
 
-## Indicaciones generales
+## Reflexiones finales 
 
 ¿Terminaste la actividad? Responde las siguientes preguntas:
 
