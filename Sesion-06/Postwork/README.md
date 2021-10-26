@@ -28,7 +28,7 @@ Durante este postwork continuaremos con el desarrollo del software inversiones i
 - Implementa la logica para obtener el valor final de la inversión (monto inicial + intereses - impuestos)
 - Ejecuta las pruebas
 
-### Indicaciones generales
+### Reflexiones finales 
 
 ¿Terminaste la actividad? Responde las siguientes preguntas:
 
