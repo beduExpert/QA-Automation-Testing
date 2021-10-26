@@ -28,7 +28,7 @@ postwork nos enfocaremos en el desarrollo de la UI de nuestro software.
 4. Crear la lógica necesaria para obtener los detalles de la inversión desde nuestra API
 5. Ejecuta las pruebas
 
-### Indicaciones generales
+### Reflexiones finales 
 
 ¿Terminaste la actividad? Responde las siguientes preguntas:
 
