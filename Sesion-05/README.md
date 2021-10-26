@@ -1,5 +1,7 @@
 
 # Sesión 5: Automation testing tools
+Recuerda que también puedes consultar tu postwork en la app Bedu
+
 ## :dart: Objetivos
 
 - Identificar los principios de las pruebas automatizadas
