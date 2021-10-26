@@ -4,9 +4,10 @@ Recuerda que también puedes consultar tu postwork en la app Bedu
 
 ## 🎯 OBJETIVOS
 
-Desarrollar un plan de pruebas que contemple técnicas de shift left testing
-Adaptar el plan de pruebas actual para adaptarse a cambios en la estrategia de negocio.
-Aplicar técnicas de shift left testing. 
+- Desarrollar un plan de pruebas que contemple técnicas de shift left testing.
+- Adaptar el plan de pruebas actual para adaptarse a cambios en la estrategia de negocio.
+- Aplicar técnicas de shift left testing. 
+
 
 ## 🚀 DESARROLLO
 
