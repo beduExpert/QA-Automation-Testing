@@ -32,7 +32,7 @@ que permita validar la identidad del usuario y sus privilegios en subsecuentes p
    intentos de sesión para esta cuenta por 5 minutos.
 6. Añade las pruebas correspondientes en el archivo TestApp.js
 
-### Indicaciones generales
+### Reflexiones finales 
 
 ¿Terminaste la actividad? Responde las siguientes preguntas:
 
