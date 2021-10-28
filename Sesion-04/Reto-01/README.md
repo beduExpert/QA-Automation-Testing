@@ -1,4 +1,4 @@
-# Reto 1 - Pruebas unitarias para datos invalidos
+# Reto 1 - Pruebas unitarias para datos inválidos
 
 ## Desarrollo
 
