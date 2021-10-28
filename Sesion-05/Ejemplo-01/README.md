@@ -3,11 +3,11 @@
 ## Desarrollo
 
 Durante este ejemplo nos familiarizaremos con Jest y para ello realizaremos un programa que nos permita calcular el
-valor de la funcion de fibonacci en un valor dado.
+valor de la función de fibonacci en un valor dado.
 
 ### Fibonacci
 
-La sucesion de Fibonacci se trata de una secuencia infinita de números naturales; a partir del 0 y el 1, se van sumando
+La sucesión de Fibonacci se trata de una secuencia infinita de números naturales; a partir del 0 y el 1, se van sumando
 a pares, de manera que cada número es igual a la suma de sus dos anteriores, de manera que:
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55…
