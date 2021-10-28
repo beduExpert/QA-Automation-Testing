@@ -8,7 +8,7 @@
 
 ## 🚀 DESARROLLO
 
-Durante este postwork debemos implementar una prueba e2e para nuestra página web de calcular fibonacci implementada
+Durante este postwork debemos implementar una prueba e2e para nuestra página web, esta debe calcular el fibonacci implementado
 durante el work
 
 - Define los escenarios a probar
