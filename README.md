@@ -7,7 +7,7 @@ eficaz y eficiente. A lo largo del curso utilizaremos distintas herramientas ten
 
 ## :dart: Objetivo
 
-En este curso obtendrás una visión general de la disciplina de pruebas, entendiendo la necesidad de las
+Bienvenidos al curso de QA AUTOMATION TESTING, en este curso obtendrás una visión general de la disciplina de pruebas, entendiendo la necesidad de las
 pruebas del software, los objetivos de las pruebas, así como su cantidad idónea y los conceptos fundamentales de la
 disciplina.
 
