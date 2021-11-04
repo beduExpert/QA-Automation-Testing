@@ -1,5 +1,10 @@
 # Ejemplo 3 - Añadir pruebas
 
+## :dart: Objetivos
+
+- Desarrollar pruebas unitarias para una función existente.
+
+
 ## Desarrollo
 
 Para probar nuestro software no necesitamos ningún framework o librería adicional, bastará con crear otra función que
