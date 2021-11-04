@@ -1,5 +1,10 @@
 # Ejemplo 1 - Métodos agiles de pruebas
 
+## :dart: Objetivos
+
+- Identificar las tareas y responsabilidades de un tester en un proceso de desarrollo ágil
+- Identificar las caracteristicas de TDD y BDD
+
 ## Desarrollo
 
 Como se mencionó anteriormente, el desarrollo guiado por pruebas (TDD) es una técnica de programación ágil que requiere
