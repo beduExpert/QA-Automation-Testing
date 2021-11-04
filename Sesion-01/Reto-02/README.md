@@ -1,5 +1,11 @@
 # Reto 2 - Implementar conversión de snake_case a PascalCase
 
+## :dart: Objetivos
+
+- Analizar requerimientos y escribir código que los satisfaga de manera adecuada.
+- Escribir pruebas unitarias que validen requerimientos dados
+
+
 ## Desarrollo
 
 ![style-cases.png](assets/style-cases.png)
@@ -12,9 +18,18 @@ PascalCase (EstoEsUnEjemplo). Para ello contaremos con la siguiente función:
 Adicionalmente debemos añadir pruebas a nuestro código.
 
 
+1. En el archivo llamado StringOperations.js añade una función llamada: `castSnakeCaseToPascalCase` que recibira como parametro una cadena en formato snake_case
+2. La función debe regresar la cadena convertida en formato PascalCase. Ejemplo: hola_mundo -> HolaMundo
+3. En el archivo llamado TestStringOperations.js añade las pruebas correspondientes
+4. Ejecuta tu programa y las pruebas con node
+
+
 <details>
   <summary>Solución</summary>
 
+  1. Utilizando la función split partiremos nuestra cadena en fragmentos cada que exista un guión bajo. Ejemplo: ['hola', 'mundo']
+  2. Con map uniremos el array resultante, convirtiendo el primer caracter de cada palabra en mayuscula.Ejemplo: 'HolaMundo'
+  
 `StringOperations.js`
 
 ```javascript
