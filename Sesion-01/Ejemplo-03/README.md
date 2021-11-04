@@ -2,7 +2,7 @@
 
 ## :dart: Objetivos
 
-- Desarrollar pruebas unitarias para una función existente.
+- Desarrollar pruebas unitarias para una función existente, sin utilizar un framework adicional.
 
 
 ## Desarrollo
