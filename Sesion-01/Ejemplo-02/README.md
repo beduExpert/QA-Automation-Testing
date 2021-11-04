@@ -1,5 +1,11 @@
 # Ejemplo 2 - Jerarquía de pruebas
 
+
+## :dart: Objetivos
+
+- Analizar la jerarquía de pruebas
+- Reconocer las diferencias entre las pruebas automatizadas y las pruebas manuales
+
 ## Desarrollo
 
 ### Jerarquía de pruebas
