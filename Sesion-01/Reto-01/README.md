@@ -27,7 +27,7 @@ snake_case(esto_es_un_ejemplo). Para ello contaremos con la siguiente función:
 <details>
   <summary>Solución</summary>
   
-  1. Utilizando la función pslit partiremos nuestra cadena en fragmentos cada que exista una letra mayuscula. Ejemplo: ['Hola', 'Mundo']
+  1. Utilizando la función split partiremos nuestra cadena en fragmentos cada que exista una letra mayuscula. Ejemplo: ['Hola', 'Mundo']
   2. Con join uniremos el array resultante utilizando el guion bajo como "pegamento". Ejemplo: 'Hola_Mundo'
   3. Por ultimo convertiremos todo el string resultante a minusculas. Ejemplo: 'hola_mundo'
 
