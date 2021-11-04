@@ -1,5 +1,9 @@
 # Ejemplo 4 - Excepciones, fallas y errores
 
+## :dart: Objetivos
+
+- Reconocer las diferencias entre excepciones, fallas y errores
+
 ## Desarrollo
 
 ### Excepciones, fallas y errores
