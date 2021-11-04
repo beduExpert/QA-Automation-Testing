@@ -1,5 +1,10 @@
 # Ejemplo 1 - La importancia de realizar pruebas
 
+## :dart: Objetivo
+
+- Reconocer la importancia de las pruebas
+
+
 ## Desarrollo
 
 ### La importancia de realizar pruebas
@@ -8,6 +13,10 @@ Cuando creamos software debemos asegurar un cierto nivel de calidad, es decir, v
 queremos y validar, con el usuario, que se comporte de la forma esperada. De no hacerlo podemos acabar con software
 defectuoso, cuyo resultado pude ser desde un cliente insatisfecho, pasando por perdidas monetarias y llegando incluso a
 la perdida de vidas humanas.
+
+![imagen](https://user-images.githubusercontent.com/5317347/140237112-8977f7d6-c08d-45d8-91ec-5c37ba023f2d.png)
+
+
 [Fallas en el software del Boeing 737](https://www.xataka.com/vehiculos/tercer-error-software-aparece-boeing-737-max-a-pesar-todo-faa-parece-aprobar-cambios-su-diseno)
 
 Actualmente la informática no tiene herramientas suficientes para demostrar que un software no falla o que se encuentra
