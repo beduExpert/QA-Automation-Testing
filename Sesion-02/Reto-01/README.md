@@ -1,5 +1,10 @@
 # Reto 1 - Historias de usuario y BDD
 
+## :dart: Objetivo
+
+- Escribir historias de usuario en formato AS, I WANT, SO
+- Aanlizar como a partir de las historias de usuario se crean los criterios de acepatación especificos.
+
 ## Desarrollo
 
 Generar la historia de usuario (formato AS, WANT, SO) y las descripciones BDD (formato GIVEN, WHEN. THEN) necesarias
@@ -16,12 +21,16 @@ Requerimientos:
 
 <details>
   <summary>Solución</summary>
+  
+1. Como primer paso y tomando en cuenta los requerimientos describiremos de manera genera la tarea que se quiere realizar en el sistema,quién la quiere realizar, cómo la quiere realizar y para qué la quiere realizar.
 
 ## Historia de usuario Sign up
 
 **AS** un usuario
 **I WANT** poder registrarme utilizando mi correo, cuenta de facebook o google
 **SO** puedo ingresar a la aplicación con mi cuenta
+  
+2. Con nuestra historia de usuario describiendo de forma global la tarea a realizar, ahora describiremos en detalle el funcionamiento con los criterios de aceptación
 
 ## Criterios de aceptación
 
