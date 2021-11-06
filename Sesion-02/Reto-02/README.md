@@ -15,7 +15,7 @@
 
 Tomando como base el siguiente caso de uso y criterios de aceptación, desarrollar un programa que mediante terminal
 permita dar de alta nuevos usuarios. Implementar las pruebas correspondientes siguiendo la metodología agil de tu
-elección.
+elección. No es necesario conectarlos de forma real con servicios de terceros como Facebook Y Google, dichas interacciones pueden ser simuladas.
 
 ## Caso de uso (Sign up)
 
