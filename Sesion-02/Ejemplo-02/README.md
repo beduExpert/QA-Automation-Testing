@@ -1,6 +1,14 @@
 # Ejemplo 2 - Desarrollo Guiado por Pruebas de Aceptación
 
+## :dart: Objetivos
+
+- Reconocer las diferentes metodologías de pruebas ágiles
+- Familiarizarse con la metodología ATDD
+
 ## Desarrollo
+
+![imagen](https://user-images.githubusercontent.com/5317347/140622845-15f119af-c19d-4ff2-b827-65ab065896cf.png)
+
 
 El desarrollo impulsado por pruebas de aceptación (ATDD) es otra mejora del desarrollo impulsado por pruebas que
 promueve la colaboración entre usuarios comerciales, evaluadores y desarrolladores para definir criterios de aceptación
