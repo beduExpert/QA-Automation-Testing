@@ -7,7 +7,7 @@
 
 ## Desarrollo
 
-Generar la historia de usuario (formato AS, WANT, SO) y las descripciones BDD (formato GIVEN, WHEN. THEN) necesarias
+Generar la historia de usuario (formato AS, I WANT, SO) y las descripciones BDD (formato GIVEN, WHEN. THEN) necesarias
 para el registro de un usuario en nuestra plataforma.
 
 Requerimientos:
@@ -18,11 +18,15 @@ Requerimientos:
   que el correo indicado ya está registrado y que utilice el botón de Facebook
 - Si un usuario se registra con un correo, ligado a una cuenta de Google de la que ya existe una cuenta, se le indica
   que el correo indicado ya está registrado y que utilice el botón de Google
+  
+  
+1. A partir de los requerimientos describe de manera general la tarea que se quiere realizar en el sistema,quién la quiere realizar, cómo la quiere realizar y para qué la quiere realizar. Usa el formato: AS, I WANT, SO.
+2. Con la historia de usuario describiendo de forma global la tarea a realizar, ahora describe en detalle el funcionamiento con los criterios de aceptación. Sigue el formato: GIVEN, WHEN. THEN
 
 <details>
   <summary>Solución</summary>
   
-1. Como primer paso y tomando en cuenta los requerimientos describiremos de manera genera la tarea que se quiere realizar en el sistema,quién la quiere realizar, cómo la quiere realizar y para qué la quiere realizar.
+1. Como primer paso y tomando en cuenta los requerimientos describiremos de manera general la tarea que se quiere realizar en el sistema,quién la quiere realizar, cómo la quiere realizar y para qué la quiere realizar.
 
 ## Historia de usuario Sign up
 
