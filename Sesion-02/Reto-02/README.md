@@ -1,5 +1,16 @@
 # Reto 2 - Implementación de historias de usuario
 
+## :dart: Objetivos
+
+- Impelementar código que cumpla con criterios de aceptación dados.
+- Pasar de descricpón de criterios de aceptación a pruebas que los validen.
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+
+
 ## Desarrollo
 
 Tomando como base el siguiente caso de uso y criterios de aceptación, desarrollar un programa que mediante terminal
