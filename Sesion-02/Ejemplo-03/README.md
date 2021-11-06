@@ -1,5 +1,10 @@
 # Ejemplo 3 - Otras metodologías de pruebas agiles
 
+## :dart: Objetivos
+
+- Identificar las tareas y responsabilidades de un tester en un proceso de desarrollo ágil
+- Reconocer las diferentes metodologías de pruebas ágiles
+
 ## Desarrollo
 
 ### Exploratory Testing
