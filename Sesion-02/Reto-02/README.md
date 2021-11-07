@@ -67,7 +67,7 @@ Cuando la contraseña tiene menos de 8 caracteres.
   <summary>Solución</summary>
 
 1. Utilizando la función `executeTest` crearemos los casos de prueba que nos permitan validar los criterios de aceptación.
-2. En la función `signUpUsingEmailAndPassword` añadimos al arreglo `users` los datos de cada sario que se registra, asi mismo hacemos uso de condicionales y ciclos para validar las condiciones especificadas.
+2. En la función `signUpUsingEmailAndPassword` añadimos al arreglo `users` los datos de cada usuario que se registra, asi mismo hacemos uso de condicionales y ciclos para validar las condiciones especificadas.
 
 `StringOperations.js`
 

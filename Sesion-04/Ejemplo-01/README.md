@@ -1,5 +1,14 @@
 # Ejemplo 1 - Pruebas unitarias
 
+## :dart: Objetivos
+
+- Implementar pruebas unitarias
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+
 ## Desarrollo
 
 Existen muchas definiciones de pruebas unitarias. Algunos autores las definen como aquellas en las que solo se prueban
@@ -12,7 +21,7 @@ API externas, etc.)
 ### Ejercicio
 
 A continuación desarrollaremos un sistema de login teniendo en cuenta las consideraciones que revisamos sobre seguridad
-en le prework.
+en el prework.
 
 #### Historia de usuario
 

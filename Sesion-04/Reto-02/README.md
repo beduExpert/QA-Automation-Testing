@@ -1,5 +1,15 @@
 # Reto 2 - Fuerza bruta
 
+## :dart: Objetivos
+
+- Desarrollar un método que utilizando fuerza bruta obtenga la contraseña del usuario
+- Analizar las similitudes entre una ataque de fuerza bruta y las pruebas.
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+
 ## Desarrollo
 
 Como revisamos en el prework Un ataque de fuerza bruta es un intento de averiguar una contraseña o un nombre de usuario,
@@ -10,10 +20,10 @@ A continuación desarrollaremos un script de fuerza bruta para nuestro login, do
 dos características:
 
 - El email del usuario es: myemail@mail.com
-- La contraseña del usuario es de 14 caracteres y solo contiene letras mayúsculas y minusculas
+- La contraseña del usuario es de 14 caracteres y solo contiene letras mayúsculas y minúsculas
 - Los últimos 8 caracteres de la contraseña son: Password
 
->**💡 Nota para experto(a)**
+> **💡 Nota para experto(a)**
 >
 > Cuando los estudiantes terminen el reto, desarrollar la conversación alrededor de estos temas:
 > ¿Existen similitudes entre las pruebas y nuestro script de fuerza bruta? ¿Cuáles?
@@ -22,6 +32,10 @@ dos características:
 
 <details>
   <summary>Solución</summary>
+
+Dado que sabemos que la contraseña tendrá 14 caracteres, conocemos sus 8 últimos caracteres y que solo contiene letras.
+Procedemos a generar todas las combinaciones posibles de los 6 primeros caracteres, concatenamos con el final de la
+contraseña (`Password)`) y probamos una por una las contraseñas generadas
 
 `BruteForce.js`
 

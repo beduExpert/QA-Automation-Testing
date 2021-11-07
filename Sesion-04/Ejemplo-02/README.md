@@ -1,5 +1,10 @@
 # Ejemplo 2 - Pruebas de integración
 
+## :dart: Objetivos
+
+- Desarrollar un método que utilizando fuerza bruta obtenga la contraseña del usuario
+- Implementar pruebas integración
+
 ## Desarrollo
 
 Las pruebas de integración dentro del software testing chequean la integración o interfaces entre componentes,

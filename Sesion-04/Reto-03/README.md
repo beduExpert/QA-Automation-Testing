@@ -1,5 +1,9 @@
 # Reto 3 - Endpoint para el login
 
+## :dart: Objetivos
+
+- Implementar pruebas de integración
+
 ## Desarrollo
 
 A continuación crearemos un endpoint para el login, integrando nuestra logica principal.
@@ -8,6 +12,12 @@ A continuación crearemos un endpoint para el login, integrando nuestra logica p
 - El endpoint debe aceptar peticiones tipo POST
 - El endpoint recibirá dos parámetros: `email` y `password`
 - Llamar a nuestra función `login` desde el endpoint
+
+1. Crea el archivo `app.js` y añade un nuevo endpoint llamando login que llame al método login implementado
+   anteriormente.
+2. En el archivo `TestApp.js`, escribe tests que llamando al endpoint validen los siguientes escenarios: el usuario
+   ingresa sus datos correctamente, el usuario ingresa su contraseña incorrectamente y el usuario ingresa un correo
+   equivocado.
 
 <details>
   <summary>Solución</summary>
@@ -59,7 +69,7 @@ const executeTest = async (input, expectedOutput, functionToExecute) => {
 }
 
 const makePostApiCall = async (userCredentials) => {
-    const response = await axios.post('http://localhost:3000/login',userCredentials)
+    const response = await axios.post('http://localhost:3000/login', userCredentials)
     return response.data
 }
 

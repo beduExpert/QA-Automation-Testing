@@ -1,5 +1,14 @@
 # Reto 1 - Pruebas unitarias para datos inválidos
 
+## :dart: Objetivos
+
+- Implementar pruebas unitarias
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+
 ## Desarrollo
 
 #### Requerimientos
@@ -10,8 +19,19 @@ inválida THEN el sistema imprime "Contraseña incorrecta"
 GIVEN un usuario que se encuentra registrado en la aplicación WHEN ingresa su correo electrónico inválido y contraseña
 válida THEN el sistema imprime "Usuario no registrado"
 
+1. Crea el archivo `TestLogin.js`, copia la función `executeTest` que hemos utilizado anteriormente
+2. Escribe pruebas para los siguientes casos: el usuario ingresa sus datos correctamente, el usuario ingresa su
+   contraseña incorrectamente y el usuario ingresa un correo equivocado.
+3. Crea el archivo `Login.js` e implementa la función login que pase de forma exitosa las pruebas desarrolladas
+   anteriormente.
+
 <details>
   <summary>Solución</summary>
+
+1. Utilizando la función `executeTest` crearemos los casos de prueba que nos permitan validar los criterios de
+   aceptación.
+2. En la función `login`, utilizando el arreglo `users`, validamos si los datos dle usuario existen y son correctos. Asi
+   mismo hacemos uso de condicionales y ciclos para validar las condiciones especificadas.
 
 `Login.js`
 
