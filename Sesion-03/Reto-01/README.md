@@ -1,5 +1,9 @@
 # Reto 1 - Introducción, objetivos y tareas, alcance
 
+## :dart: Objetivos
+
+- Elaborar un plan de pruebas
+
 ## Desarrollo
 
 > **💡 Nota para experto(a)**

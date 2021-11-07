@@ -1,5 +1,10 @@
 # Ejemplo 2 - Shift left testing
 
+## :dart: Objetivos
+
+- Analizar las diferentes etapas de: planeación, diseño y ejecución
+- Reconocer los elementos que componen a la metodología shift left testing
+
 ## Desarrollo
 
 Si tuviéramos que escribir la secuencia de actividades en un ciclo de vida de desarrollo de software tradicional (SDLC),

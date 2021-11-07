@@ -1,6 +1,13 @@
 # Ejemplo 1 - Estrategias de productos y pruebas
 
+## :dart: Objetivos
+
+- Definir las diferencias entre un plan de testing y una estrategia de testing
+- Analizar las partes que componen a un plan de testing
+
 ## Desarrollo
+
+![img.png](img.png)
 
 Cuando hablamos de desarrollo de software muy pocas veces nos detenemos a pensar en el negocio para el cual lo estamos
 desarrollando. Vemos el área comercial como un área alejada, todo lo relacionado con el producto y ventas parece un

@@ -1,5 +1,9 @@
 # Reto 2 - Estrategia de pruebas, calendario de pruebas, funcionalidades a ser probadas, funcionalidades que no se probaran
 
+## :dart: Objetivos
+
+- Elaborar un plan de pruebas
+
 ## Desarrollo
 
 > **💡 Nota para experto(a)**

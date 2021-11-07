@@ -1,5 +1,9 @@
 # Reto 3 - Dependencias, riesgos y supuestos
 
+## :dart: Objetivos
+
+- Elaborar un plan de pruebas
+
 ## Desarrollo
 
 > **💡 Nota para experto(a)**
