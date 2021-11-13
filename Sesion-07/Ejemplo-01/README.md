@@ -1,5 +1,16 @@
 # Ejemplo 1 - Bases de datos
 
+## :dart: Objetivos
+
+- Crear nuestra base de datos que nos permitirá ejemplificar y aplicar inversión de control
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- sqlite3
+
 ## Desarrollo
 
 En este ejemplo crearemos nuestra conexión a base de datos y la tabla que nos permitirá almacenar las inversiones.

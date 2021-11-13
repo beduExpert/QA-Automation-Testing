@@ -1,5 +1,17 @@
 # Ejemplo 2 - Inyección de dependencias
 
+## :dart: Objetivos
+
+- Identificar las características del principio de Inversión de control
+- Aplicar el patrón de Inyección de dependencias
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- sqlite3
+
 ## Desarrollo
 
 El patrón de inyección de dependencias consiste en hacer que nuestras piezas de software sean independientes
@@ -13,7 +25,7 @@ La no utilización de la instrucción new, tiene una gran ventaja para el testeo
 en hacer mocking. Esta técnica consiste en simular piezas de software dependientes y reemplazarlas por otras más simples
 y más rápidas para ejecutar multitud de test.
 
-Por ejemplo, si un test de unidad tuviese una dependencias a un código para que conecte a la base de datos ese test se
+Por ejemplo, si un test de unidad tuviese una dependencia a un código para que conecte a la base de datos ese test se
 puede llegar a ejecutar tremendamente lento. Si tenemos una base de datos con mucho volumen o tenemos muchos test a
 ejecutar, puede que llegue a ser inviable realizar test de unidad. Como la inyección de dependencias nos permite
 modificar estos componentes, podemos simular algo más eficiente.
