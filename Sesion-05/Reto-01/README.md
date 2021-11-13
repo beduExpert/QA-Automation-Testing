@@ -1,8 +1,18 @@
 # Reto 1 - Fibonacci para valores altos
 
+## :dart: Objetivos
+
+- Crear pruebas unitarias con jest
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+
 ## Desarrollo
 
-Como vimos en el ejemplo anterior la ejecución de nuestro código toma un tiempo considerable para casos con valores"
+Como vimos en el ejemplo anterior la ejecución de nuestro código toma un tiempo considerable para casos con valores "
 altos". Nuestro reto consistirá en transformar nuestra función fibonacci para lograr ejecuciones de menos de un segundo
 para los siguientes casos de prueba:
 
@@ -26,6 +36,10 @@ describe("TestFibonacci", () => {
 });
 
 ```
+
+1. Añade los casos de prueba al archivo `TestFibonacci.spec.js`
+2. Realiza los cambios correspondientes en la función `fibonacci` del archivo `Fibonacci.js`
+4. Ejecuta tu programa con node y verifica que todos los casos de prueba se ejecuten en menos de un segundo.
 
 <details>
   <summary>Solución</summary>

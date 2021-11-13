@@ -1,5 +1,15 @@
 # Ejemplo 3 - TestCafe
 
+## :dart: Objetivos
+
+- Crear pruebas e2e con TestCafe
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- TestCafe
+
 ## Desarrollo
 
 Test Cafe es una herramienta de automatización de código abierto y gratuita de extremo a extremo (e2e) que se utiliza

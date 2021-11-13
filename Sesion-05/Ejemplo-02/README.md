@@ -1,5 +1,16 @@
 # Ejemplo 2 - Vue Testing
 
+## :dart: Objetivos
+
+- Crear pruebas unitarias y de integración con jest
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- Vue.js
+
 ## Desarrollo
 
 En la actualidad los 3 frameworks que dominan el desarrollo frontend son React, Vue.js y Angular. Los 3 comparten

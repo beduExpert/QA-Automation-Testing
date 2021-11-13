@@ -1,5 +1,15 @@
 # Ejemplo 1 - Fibonacci
 
+## :dart: Objetivos
+
+- Crear pruebas unitarias con jest
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+
 ## Desarrollo
 
 Durante este ejemplo nos familiarizaremos con Jest y para ello realizaremos un programa que nos permita calcular el

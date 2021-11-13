@@ -1,5 +1,16 @@
 # Reto 2 - Fibonacci UI
 
+## :dart: Objetivos
+
+- Aplicar pruebas funcionales sobre la interfaz de usuario con Vue Test Utils
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- Vue.js
+
 ## Desarrollo
 
 Crea un formulario básico que permita al usuario ingresar un número que represente el n-esimo valor de la sucesión de
@@ -7,9 +18,15 @@ fibonacci y debemos imprimir el valor de fibonacci en esa posición.
 
 Debemos incluir pruebas que validen el correcto funcionamiento de nuestra página.
 
+1. En el archivo `Home.vue` crea un formulario con un `input` (el valor de `n` para calcular fibonacci) y un `button`
+2. El `button` debera tener un evento listener que llame a una función para calcular el valor de fibonacci
+3. La función que es llamada desde el listener tiene que usar la función `fibonacci` dle archivo `Fibonacci`
+4. En el archivo `fibonacci.spec.js` agregar las pruebas necesarias que nos permitan probar el flujo completo de la aplicación 
 
 <details>
   <summary>Solución</summary>
+
+1. Creamos un formulario con un `input` (el valor de `n` para calcular fibonacci) y un `button` que tiene un listener del evento click que llama a la función para calcular el valor de fibonacci
 
 `Home.vue`
 
@@ -45,6 +62,8 @@ export default {
 
 
 ```
+
+1. Creamos una prueba que monta nuestro componente, manda un valor a nuestro `input` y compara el valor obtenido contra el esperado
 
 `fibonacci.spec.js`
 ```javascript
