@@ -1,4 +1,17 @@
 # Ejemplo 2 - CI/CD
+
+## :dart: Objetivos
+
+- Identificar las características de Jenkins, Travis y Github Actions
+- Crear un pipeline con GitHub Actions
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 ### CI/CD

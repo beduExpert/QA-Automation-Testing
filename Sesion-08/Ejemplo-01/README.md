@@ -1,5 +1,17 @@
 # Ejemplo 1 - Platform as a Service (PaaS)
 
+## :dart: Objetivos
+
+- Identificar las características del desarrollo y la integración continua.
+- Aplicar principios de DevOps para la construcción de pipelines
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- Una cuenta de heroku
+
 ## Desarrollo
 
 PaaS es un conjunto de servicios para crear y administrar aplicaciones modernas en la era digital, tanto en las

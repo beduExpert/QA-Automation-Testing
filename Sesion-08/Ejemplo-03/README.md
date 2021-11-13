@@ -1,5 +1,17 @@
 # Ejemplo 3 - CI/CD con GitHub Actions
 
+## :dart: Objetivos
+
+- Identificar las características de Jenkins, Travis y Github Actions
+- Crear un pipeline con GitHub Actions
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- Una cuenta de GitHub
+
 ## Desarrollo
 
 La Integración Continua es una práctica que nos requiere añadir frecuentemente nuevo código a un repositorio compartido
