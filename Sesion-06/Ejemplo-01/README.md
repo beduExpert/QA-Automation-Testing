@@ -1,5 +1,16 @@
 # Ejemplo 1 - Modelo de datos
 
+## :dart: Objetivos
+
+- Aplicar el patrón AAA (Arrange -  Act - Assert)
+- Aplicar el patrón GWT (Given - When - Then)
+- 
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+
 ## Desarrollo
 
 Como revisamos en el prework, la empresa sistemas ABC desea realizar un sistema que permita a los usuarios llevar

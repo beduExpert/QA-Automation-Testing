@@ -1,9 +1,20 @@
 # Reto 2 - Generación de identificadores
 
+## :dart: Objetivos
+
+- Aplicar el patrón AAA (Arrange -  Act - Assert)
+- Aplicar el patrón GWT (Given - When - Then)
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+
 ## Desarrollo
 
 Nuestro primer criterio de aceptación indica que se creara un registro, en este punto podríamos decir que cumplimos con
-él. Sin embargo nuestros objetos aún no cuentan don id y son efímeros. La persistencia es un detalle de implementación y
+él. Sin embargo nuestros objetos aún no cuentan con id y son efímeros. La persistencia es un detalle de implementación y
 como tal lo dejaremos abierto para definir los detalles de su funcionamiento más tarde.
 
 En este reto tendrás que crear una prueba que valide que el valor del ID es el esperado.
@@ -26,10 +37,18 @@ class InvestmentRepositoryContract {
 }
 
 
+1. En el archivo `TestInvestment.spec.js` añade la siguiente prueba:
+    ```it('assigns id gotten from repository', () => {}); ```
+2. Añadir el código necesario para validar que a la inversión reada se lea signa un id
+3. En el archivo `Investment.js` implementar la logica necesaria para pasar las pruebas.
+
+
 ```
 
 <details>
   <summary>Solución</summary>
+
+1. Creamos la prueba que nos permite validar que la inversión fue creada con un id.
 
 `TestInvestment.spec.js`
 
@@ -81,7 +100,7 @@ describe('Investment', () => {
             expect(investment.finalAmount).toEqual(expectedFinalAmount);
         })
 
-        it('assigns id gotten form repository', () => {
+        it('assigns id gotten from repository', () => {
             const name = "cetes 28 days";
             const description = "cetes for 28 days";
             const interest = 4.5;
@@ -104,6 +123,8 @@ describe('Investment', () => {
 
 
 ```
+
+1. Nuestro código asigna un id a la inversión utilizando el método `getId()` del repositorio
 
 `Investment.js`
 

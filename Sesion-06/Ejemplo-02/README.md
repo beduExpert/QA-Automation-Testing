@@ -1,5 +1,20 @@
 # Ejemplo 2 - Creación de API
 
+## :dart: Objetivos
+
+- Identificar los principios de las pruebas unitarias
+- Realizar pruebas para endpoints
+
+## ⚙ Requisitos
+
+- WebStorm
+- Node.js
+- Jest
+- express
+- sqlite3
+- uuid
+- supertest
+
 ## Desarrollo
 
 Ahora que tenemos la logíca para añadir inversiones, necesitamos exponerla para que sea accesible desde una interfaz
