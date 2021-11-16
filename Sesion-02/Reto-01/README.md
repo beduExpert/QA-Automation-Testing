@@ -3,7 +3,7 @@
 ## :dart: Objetivo
 
 - Escribir historias de usuario en formato AS, I WANT, SO
-- Aanlizar como a partir de las historias de usuario se crean los criterios de acepatación especificos.
+- Anlizar cómo a partir de las historias de usuario se crean los criterios de aceptación específicos.
 
 ## Desarrollo
 
