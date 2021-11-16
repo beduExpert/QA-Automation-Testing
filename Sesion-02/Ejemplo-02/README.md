@@ -3,7 +3,7 @@
 ## :dart: Objetivos
 
 - Reconocer las diferentes metodologías de pruebas ágiles
-- Familiarizarse con la metodología ATDD
+- Analizar la metodología ATDD
 
 ## Desarrollo
 
