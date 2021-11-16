@@ -3,7 +3,7 @@
 ## :dart: Objetivos
 
 - Identificar las tareas y responsabilidades de un tester en un proceso de desarrollo ágil
-- Identificar las caracteristicas de TDD y BDD
+- Identificar las características de TDD y BDD
 
 ## Desarrollo
 
