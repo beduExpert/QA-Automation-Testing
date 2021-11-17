@@ -4,7 +4,7 @@
 
 - Aplicar el patrón AAA (Arrange -  Act - Assert)
 - Aplicar el patrón GWT (Given - When - Then)
-- 
+
 ## ⚙ Requisitos
 
 - WebStorm
