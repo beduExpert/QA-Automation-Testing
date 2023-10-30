@@ -15,7 +15,7 @@
 Para este primer reto el escenario es el siguiente:
 
 Son los años 90s, tú y tu equipo acaban de ser contratados por Reed Hastings, fundador de Netflix, para que desarrollen
-el pan de pruebas de una nueva aplicación que permitirá alquilar DVD por internet y estos serán enviados por paquetería
+el plan de pruebas de una nueva aplicación que permitirá alquilar DVD por internet y estos serán enviados por paquetería
 al usuario.
 
 En este primer reto desarrolla las siguientes secciones del plan de pruebas:
